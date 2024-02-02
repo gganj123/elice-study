@@ -55,3 +55,8 @@ search.addEventListener('keyup',e=> {
     console.log(searchText);
     filterMemo(searchText);
 })
+
+name = {
+    "name": 1,"study": 2, "asdasfa": 3
+
+}
