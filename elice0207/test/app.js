@@ -8,6 +8,10 @@ const app = express();
 mongoose.connect('mongodb+srv://gganj123:zxcv0903@cluster0.cdypmi2.mongodb.net/?retryWrites=true&w=majority')
 .then(()=> console.log('Connected!'));
 
+// app.post("/login",async (req,res)=>{
+//     const user = await User.find({"email:aaaasdasdad.com"})
+//     user.password //해쉬화된 데이터
+// })
 
 app.get('/', async (req,res)=>{
 
@@ -19,6 +23,8 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+var test = "테스트입니다";
 
 // app.get('/',(res,req)=>{
 //     res.send('welcome app');
