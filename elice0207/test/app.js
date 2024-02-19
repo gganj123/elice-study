@@ -24,7 +24,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-var test = "테스트입니다";
+
 
 // app.get('/',(res,req)=>{
 //     res.send('welcome app');
@@ -32,3 +32,4 @@ var test = "테스트입니다";
 
 // app.use('/products',productsRouter);
 // app.use('/carts',cartsRouter)
+

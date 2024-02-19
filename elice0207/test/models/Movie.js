@@ -9,6 +9,8 @@ const userSchema = new Schema({
   createdAt: { type: Date, default: Date.now() },
 });
 
+
+
 // 3. model로 이 userSchema를 다른 파일에서 사용할 수 있게 User model을 exports하세요.
 
 module.exports = mongoose.model('Movie', userSchema);
